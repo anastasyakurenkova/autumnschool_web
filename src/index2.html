@@ -19,46 +19,116 @@
     <main class="main">
         <div class="btn-main-page">
             <a href="/" class="header__link"><button class="btn__log-out">
-                На главную
+                Назад
             </button>
         </a>
         </div>
         <span style="margin-bottom: 56px;">
             <font class="h3" style="margin-right: 16px;">Создание профиля</font>
-            <font class="p-bold" style="color:#ccc"> /  О себе </font>
+            <font class="p-bold" style="color:#ccc"> /  Образование </font>
         </span>
         <section class="general">
         <section class="two-sections">
             <section class="section-left">
-                <section class="avatar">
-                    <p class="p-bold">Аватар профиля</p>
-                    <a href="/" class="header__link">
-                        <button class="btn-violet" class="btn-loading">Загрузить
-
-                        </button>
-                    </a>
-                    <span class="small" class="loading-photo">Загрузите фотографию весом не более 10 мб
-                    </span>
-                </section>
                 <section class="questionnaire">
-                     <input placeholder="Имя и фамилия" class="placeholder">
-                     <section class="boyorgirl">
+                    <section class="boyorgirl">
                         <img src="/src/img/point.svg" alt="">
-                        <p class="p-paragraph">Парень</p>
+                        <p class="p-paragraph">Студент/выпускник</p>
                         <img src="/src/img/point.svg" alt="">
-                        <p class="p-paragraph">Девушка</p>
+                        <p class="p-paragraph">Сотрудник</p>
                      </section>
+                     <section class="survey">
+                        <section class="course-or-graduated">
+                            <section class="course">
+                                <span class="small" style="color:#5D5B66;">
+                                    Курс
+                                </span>
+                                <section class="numbers">
+                                    <block class="btn-numbers">
+                                        <span class="p-paragraph">
+                                            1
+                                        </span>
+                                    </block>
+                                    <block class="btn-numbers">
+                                        <span class="p-paragraph">
+                                            2
+                                        </span>
+                                    </block>
+                                    <block class="btn-numbers">
+                                        <span class="p-paragraph">
+                                            3
+                                        </span>
+                                    </block>
+                                    <block class="btn-numbers">
+                                        <span class="p-paragraph">
+                                            4
+                                        </span>
+                                    </block>
+                                    <block class="btn-numbers">
+                                        <span class="p-paragraph">
+                                            5
+                                        </span>
+                                    </block>
+                                    <block class="btn-numbers" style="background:#7953C3">
+                                        <span class="p-paragraph" style="color: #fff;">
+                                            6
+                                        </span>
+                                    </block>
+                                </section>
+                                <section class="graduated">
+                                    <block class="place-tick">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                            <rect x="0.5" y="0.5" width="15" height="15" rx="3.5" fill="white" stroke="#7953C3"/>
+                                            </svg>
+                                    </block>
+                                    <p class="p-paragraph">
+                                        Уже окончил Вышку
+                                    </p>
+                                </section>
+                            </section>
+                            <section class="stage-education">
+                                <p class="small">
+                                    Ступень образования
+                                </p>
+                                
+                                <select class="placeholder">
+                                    <option value="" disabled selected> Cтупень образования</option>
+                                    <option value="hurr">Бакалавриат</option>
+                                    <option value="hurr">Магистратура</option>
+                                    <option value="hurr">Аспирантура</option>
+                                </select>
+                            </section>
+                            <section class="stage-education">
+                                <p class="small">
+                                    Факультет
+                                </p>
+                                
+                                <select class="placeholder">
+                                    <option value="" disabled selected> Факультет(смотреть список)</option>
+                                    <option value="hurr">ИВТ!</option>
+                                    <option value="hurr">ИВТ!!</option>
+                                    <option value="hurr">ИВТ!!!</option>
+                                </select>
+                            </section>
+                            <section class="stage-education">
+                                <p class="small">
+                                    Образовательная программа
+                                </p>
+                                <input type="search" placeholder="Образовательная программа                                      ??" class="placeholder">
+                            </section>
+                            
+                        </section>
+                        <input type="placeholder" placeholder="Работа" class="placeholder">
+                     </section>
+                     <!-- <input placeholder="Имя и фамилия" class="placeholder">
+                     
                      <span class="small" style="margin-bottom: -25px;">Дата рождения</span>
                      <input type="datetime-local" class="placeholder" style="flex-direction: row;">
                      <input placeholder="Телеграм" class="placeholder">
                      <input placeholder="Номер телефона" class="placeholder">
-                     <span class="small" style="margin-bottom: -25px;">О себе</span>
-                     <textarea class="textareastyle" ></textarea>
-                     <font class="example">Например: Редко готовлю, но люблю ботать на кухне по ночам. 
-                        Хочу завести собаку. 
-                        Очень люблю читать, играть в хорроры и смотреть аниме. 
-                        Открыт к общению и взаимопомощи :)
-                     </font>
+                     <span class="small" style="margin-bottom: -25px;">О себе</span> -->
+                     
+            
                 </section>
             </section>
             <seclion class="section-right">
@@ -69,9 +139,9 @@
                         
                         <img src="/src/img/photo-profile.jpg" alt="Фото профиля" class="photoprofile">
                         <a href="" class="header__link"><button class="btn-show-contacts">
-                            <p class="text-show-contact">Показать контакты 
+                            <p class="text-show-contact">Показать контакты
 
-                            </p>
+                            </p> 
                         </button>
                     </a>
 
@@ -94,9 +164,11 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
                                     <circle opacity="0.3" cx="1.5" cy="1.5" r="1.5" fill="#7953C3"/>
                                     </svg>
-                                <element class="hz"></element>
+                                <span class="gender"> 1 курс бакалавриата МИЭМ ИВТ!</span>
                             </section>
-                            <element class="rectangle"></element>
+                            <element class="rectangle">
+                                <span class="gender">СТО в Бизнес в стиле .RU</span>
+                            </element>
                             <section class="aboutyouselfinprofile">
                                 <span class="textanoutyourself">Мне очень нравится устраивать вечеринки, дебоширить и мазать с...
                                 </span>
@@ -134,13 +206,13 @@
                     <section class="textplussmile">
                         <section class="text">
                             <p class="p-bold" style="height: 24px; align-self: stretch;">
-                                Мы совсем ничего про тебя не знаем
+                                Расскажи где ты учишься
                             </p>
                             <p class="small" style="align-self: stretch;
-                            color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Расскажи о себе. <br>Люди пишут тем, кому доверяют. Тем более при поиске соседа</p>
+                            color: var(--5-d-5-b-66-secondary-black, #5D5B66);">Часто студенты ищут соседей со схожими интересами</p>
                         </section>
                         
-                        <img src="/src/img/unsmileface.svg" alt="грустная рожица">
+                        <img src="/src/img/smileface.svg" alt="весёлая рожица">
                     </section>
                     
                 </seclion>
